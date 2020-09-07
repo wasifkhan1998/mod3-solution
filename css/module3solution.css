@@ -1,0 +1,92 @@
+body{
+    font-size: 16px;
+    color:#fff;
+  
+    font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+    background-color:#529672;
+    border: 0;
+    border-radius: 0;
+}
+
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+    
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+  }
+  .navbar-brand{
+   padding: 25px;
+  }
+  .navbar-brand h1{
+    font-family: 'lora',serif;
+    color: #420420;
+    font-size: 1.7em;
+    font-weight: bold;
+    text-shadow: 1px,1px,1px,#222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+  }
+  .row{
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .col-xs-12{
+    margin: 1%;
+    background-color: #67736E;
+  }
+  .col-xs-12 h1{
+    text-align: center;
+  }
+  .text-left{
+    text-align: center;
+    color: #222;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #myId1{
+    text-align: center;
+  }
+  .container{
+    font-size: large;
+    color: #000;
+    
+  }
+  .hidden-xs{
+    padding: 50px;
+  }
+  @media(min-width: 1200px){
+ .container p{
+   width: auto;
+   padding-right: 10px;
+ }
+    }
+  
+                   
+    @media(min-width:768px)and(max-width:1199px){
+     .container p {
+      width: 100px;
+      height: 100px;
+      margin: 5px 5px 5px 0;
+
+    }
+  }
+  
+  
